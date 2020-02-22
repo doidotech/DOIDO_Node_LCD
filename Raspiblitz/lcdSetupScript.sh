@@ -23,7 +23,7 @@ echo " "
 echo "Cloning the repository and installing the LCD library..."
 echo " "
 git clone https://github.com/doidotech/DOIDO_Node_LCD.git
-cd Python_ST7735
+cd DOIDO_Node_LCD
 sudo python3 setup.py install
 
 echo " "
