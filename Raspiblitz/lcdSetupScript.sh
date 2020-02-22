@@ -22,7 +22,7 @@ sudo chmod +x get_btc_sync.sh
 echo " "
 echo "Cloning the repository and installing the LCD library..."
 echo " "
-git clone https://github.com/doidotech/Python_ST7735.git
+git clone https://github.com/doidotech/DOIDO_Node_LCD.git
 cd Python_ST7735
 sudo python3 setup.py install
 
