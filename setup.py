@@ -30,7 +30,7 @@ setup(name              = 'ST7735',
       description       = 'Library to control an ST7735 TFT LCD display.',
       license           = 'MIT',
       classifiers       = classifiers,
-      url               = 'https://github.com/doidotech/Python_ST7735/',
+      url               = 'https://github.com/doidotech/DOIDO_Node_LCD/',
       dependency_links  = ['https://github.com/adafruit/Adafruit_Python_GPIO/tarball/master#egg=Adafruit-GPIO-0.6.5'],
       install_requires  = ['Adafruit-GPIO>=0.6.5'],
       packages          = find_packages())
