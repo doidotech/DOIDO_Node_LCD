@@ -1,4 +1,5 @@
 #MyNodeLCD_V1.0.py
+# Author: Walter - DOIDO Technologies
 #-------------------------------------------------------------------------------
 # This software displays scraped MyNode data on an 1.8 inch ST7735 display.
 # The data is scraped from a mynode webserver html page.
