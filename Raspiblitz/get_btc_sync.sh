@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Walter - DOIDO Technologies
 #-------------------------------------------------------------------------------
 # This script gets the bitcoin sync status and echos the current status.
 #-------------------------------------------------------------------------------
