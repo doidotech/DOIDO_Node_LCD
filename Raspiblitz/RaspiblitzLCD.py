@@ -1,3 +1,4 @@
+# Author: Walter - DOIDO Technologies
 #-------------------------------------------------------------------------------
 # This script displays RaspiBlitz data on DOIDO Node 1.8 inch ST7735 display
 #-------------------------------------------------------------------------------
