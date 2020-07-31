@@ -121,6 +121,11 @@ def image_to_data(image):
     color = ((pb[:,:,0] & 0xF8) << 8) | ((pb[:,:,1] & 0xFC) << 3) | (pb[:,:,2] >> 3)
     return np.dstack(((color >> 8) & 0xFF, color & 0xFF)).flatten().tolist()
 
+# Define a function to hard code that we are using a raspberry pi
+def get_platform_gpio_for_pi(**keywords):
+    import RPi.GPIO
+    return GPIO.RPiGPIOAdapter(RPi.GPIO, **keywords)
+
 class ST7735(object):
     """Representation of an ST7735 TFT LCD."""
 
@@ -138,7 +143,8 @@ class ST7735(object):
         self.width = width
         self.height = height
         if self._gpio is None:
-            self._gpio = GPIO.get_platform_gpio()
+            #self._gpio = GPIO.get_platform_gpio()
+            self._gpio = get_platform_gpio_for_pi()
         # Set DC as output.
         self._gpio.setup(dc, GPIO.OUT)
         # Setup reset as output (if provided).
