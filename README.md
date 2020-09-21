@@ -1,4 +1,4 @@
-DOIDO Node LCD
+TBM LCD
 ==============
 
 Python library to control an ST7735 TFT LCD display.  Allows simple drawing on the display without installing a kernel module.
